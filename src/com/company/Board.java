@@ -79,7 +79,8 @@ public class Board {
             }
 
             setBoard(elements);
-            if (this.isCheck()) System.out.println("Check!");
+            if (isCheck) System.out.println("Check!");
+            isCheck = false;
         }
     }
 
